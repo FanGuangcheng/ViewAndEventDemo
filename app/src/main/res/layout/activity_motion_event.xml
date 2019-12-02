@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fgc.viewandeventdemo.event.EventLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/event_view_group_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context=".MotionEventActivity">
+
+    <com.fgc.viewandeventdemo.event.EventTextView
+        android:id="@+id/event_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="25dp"
+        android:background="@color/colorPrimary"
+        android:text="this is a button!"/>
+</com.fgc.viewandeventdemo.event.EventLinearLayout>
